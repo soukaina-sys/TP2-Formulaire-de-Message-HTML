@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mon emploi du temps</title>
+<style>
+th {
+    background-color: gray;
+    } 
+span {
+    color: red;      
+}
+table, th, td {
+  border:1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h2>Emploi du temp</h2>
+
+<table style="width:100%">
+<tr>
+  <th></th>
+  <th>09:00 - 10:30</th>
+  <th>10:30 - 11:00</th>
+  <th>12:15 - 13:45</th>
+  <th>13:45 - 15:15</th>
+  <th>15:30 - 17:00</th>
+  <th>17:00 - 18:30</th>
+  </tr>
+<tr> 
+<th> Lundi</th>
+<td>Programmation Python 2<br><a href="message_prof.html">Prof M.Laraqui</a><br>Cours - Amphi A</td>
+<td> Algorithmes Et Programmation C 2<br><a href="message_prof.html">Cours -Prof H.Oudani</a><br>Cours - Amphi A</td>
+<td></td>
+<td>Algorithmes Et Programmation C2<br><span class="red">Td/Tp Grp2 – Salle P2</span><br><a href="message_prof.html">Prof H.Oudani</a></td>
+<td>Programmation Python 2<br><span class="red">Td/Tp Grp3 – Salle P2</span><br><a href="message_prof.html">Prof A.Elouardi</a></td>
+<td>Programmation Python 2<br><span class="red">Td/Tp Grp2 – Salle P2</span><br><a href="message_prof.html">Prof A.Elouardi</a></td>
+</tr>
+<tr>
+<th>Mardi</th>
+<td>Programmation Python 2<br><span class="red">Td/Tp Grp1 – Salle P2</span><br><a href="message_prof.html">Prof A.Elouardi</a></td>
+<td></td>
+<td>Digital Skills & Intelligence Artificielle<br>Cours - Amphi A<br><a href="message_prof.html">Prof A. Elouardi</a></td>
+<td>Digital Skills & Intelligence Artificielle<br>Td/Tp – Amphi A  <br><a href="message_prof.html">Prof A. Elouardi</a></td>
+<td></td>
+<td></td>
+</tr> 
+<tr>
+<th>Mercredi</th>
+<td></td>
+<td></td>
+<td></td>
+<td>Algorithmes Et Programmation C 2<br><span class="red">Td/Tp Grp2 – Salle P2</span><br><a href="message_prof.html">Prof H.Oudani</a></td>
+<td>Algèbre 2<br>TD – Amphi A<br><a href="message_prof.html">Prof I. Boutaayamo</a></td>
+<td>Analyse 2<br>Td – Amphi A<br><a href="message_prof.html">Prof A.Hadri</a></td>
+</tr>
+<tr>
+<th>Jeudi</th>
+<td>Traitement Du Signal<br>Cours – Amphi A<br><a href="message_prof.html">Prof H.Azzahhafi</a></td>
+<td>Traitement Du Signal<br>TD - Amphi A<br><a href="message_prof.html">Prof H.Azzahhafi</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Vendredi</th>
+<td>Algèbre 2<br>Cours – Amphi C<br><a href="message_prof.html">Prof I. Boutaayamo</a></td>
+<td>Analyse 2<br>Cours – Amphi C<br><a href="message_prof.html">Prof A.Hadri</a></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Samedi</th>
+<td></td>
+<td></td>
+<td></td>
+<td>Programmation Web 1<br><span class="red">Td/Tp G2 – Salle P2</span><br><a href="message_prof.html">Prof ...........</a></td>
+<td>Programmation Web 1<br>Cours – Salle P1<br><a href="message_prof.html">Prof K.Omari</a></td>
+<td>Programmation Web 1<br><span class="red">Td/Tp G1 – Salle P2</span><br><a href="message_prof.html">Prof K.Omari</a></td>
+</tr>
+</table>
+</body>
+</html>
